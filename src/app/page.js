@@ -1,8 +1,15 @@
-import Image from "next/image";
+import MatterBg from "./components/MatterBg";
+import Header from "./components/Header";
+import Section from "./components/section";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 to-blue-100 flex flex-col">
-      
+    <>
+      <div className=" ">
+        {/* <MatterBg/> */}
+        <Header  />
+        <Section />
+      </div>
+    </>
   );
 }
