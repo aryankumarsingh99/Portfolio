@@ -6,9 +6,12 @@ export default function Home() {
   return (
     <>
       <div className=" ">
-        {/* <MatterBg/> */}
+        <MatterBg/>
         <Header  />
-        <Section />
+        <div className="relative z-10 bg-white">
+          <Section />
+        </div>
+        
       </div>
     </>
   );
